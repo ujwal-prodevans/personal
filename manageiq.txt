@@ -1,0 +1,8 @@
+https://manageiq1848.blob.core.windows.net/
+
+manageiq1848
+
+vhds
+
+
+DefaultEndpointsProtocol=https;AccountName=manageiq1848;AccountKey=REYL7QRs5HylsF4LDp6VhDyudGV0C3b0nJjv6/o03dV4RFBJRbXbL2i6exf/KObX/itmYgbTT21+sj41wbaHRg==;EndpointSuffix=core.windows.net

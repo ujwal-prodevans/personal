@@ -1,0 +1,86 @@
+Requirements : Domain for GitLab access : gitlab.alphaserveit.com
+
+Configure FQDN on CentOS 7 server : ref : https://www.liberiangeek.net/2014/11/set-centos-7-fully-qualify-hostname/
+
+Install GitLab
+
+Ref : https://about.gitlab.com/installation/#centos-6
+
+#yum update -y
+
+#sudo yum install curl openssh-server openssh-clients postfix cronie
+#sudo service postfix start (system
+#sudo chkconfig postfix on
+#sudo yum install lokkit -y
+#sudo lokkit -s http -s ssh
+
+#curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+#sudo yum install gitlab-ce
+
+Configure and start GitLab:
+#sudo gitlab-ctl reconfigure
+
+
+ 4. Browse to the hostname and login
+
+On your first visit, you'll be redirected to a password reset screen to provide the password for the initial administrator account. Enter your desired password and you'll be redirected back to the login screen.
+
+The default account's username is root. Provide the password you created earlier and login. After login you can change the username if you wish.
+
+Access URL would be : 
+
+
+Signup with your alphaserverit username and emnailid
+Create Group (Organization)
+Create new repo
+
+1. Login to the development/remote server and generate ssh public key by entering ssh-keygen command
+Ref: https://docs.gitlab.com/ee/gitlab-basics/create-your-ssh-keys.html
+
+2. Create a new group
+Ref: https://docs.gitlab.com/ee/user/group/index.html#create-a-new-group
+
+3. Create a new repository
+Ref: https://docs.gitlab.com/ee/gitlab-basics/create-project.html
+
+2. Clone the repo on the development serevr using SSH method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
